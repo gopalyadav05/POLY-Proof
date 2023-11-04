@@ -15,7 +15,7 @@ async function main() {
 
   // Getting contract instance
   const NFT = await ethers.getContractFactory("Hydra");
-  const nft = await NFT.attach("0xc6ead7D955F69029947984fC31758C01d2579d76");
+  const nft = await NFT.attach("0x250Ff840fe0DeD81C6575a7261D155edC2438D4D");
 
   // Get the FXRoot contract instance 
   const fxRootAddress = "0xF9bc4a80464E48369303196645e876c8C7D972de";

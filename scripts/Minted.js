@@ -12,7 +12,7 @@ async function main() {
   const signer = new ethers.Wallet(privateKey, provider);
 
   // The Deployed contract Address 
-  const contractAddress = "0xfb83AeB503B1286BdaCcD65Bd1Ad36D4dA88667d";
+  const contractAddress = "0x250Ff840fe0DeD81C6575a7261D155edC2438D4D";
 
   const OneNFT = await ethers.getContractFactory("Hydra", signer);
   const contract = await OneNFT.attach(contractAddress);

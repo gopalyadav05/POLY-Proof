@@ -10,11 +10,11 @@ require("dotenv").config();
 module.exports = {
   solidity: "0.8.18",
   networks: {
-    mumbai: {
+    goerli: {
       url: "https://polygon-mumbai-bor.publicnode.com",
       accounts: [process.env.P_KEY],
     },
-    goerli: {
+    mumbai: {
       url: "https://goerli.blockpi.network/v1/rpc/public",
       accounts: [process.env.P_KEY],
     },
